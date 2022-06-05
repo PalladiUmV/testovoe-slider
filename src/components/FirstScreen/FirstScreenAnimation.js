@@ -11,19 +11,18 @@ import image_9 from '../../img/screen_1/virus_small_2.png'
 import './firstScreenAnimation.scss'
 
 
-
 export const FirstScreenAnimation = () => {
 	return (
 		<>
-			<img className="sod_1" src={image_1} alt="sperm"/>
-			<img className="sod_2" src={image_2} alt="sperm__blurred"/>
-			<img className="sod_3" src={image_3} alt="spot__blurred"/>
-			<img className="sod_4" src={image_4} alt="spot__blurred2"/>
-			<img className="sod_5" src={image_5} alt="stick"/>
-			<img className="virus_1" src={image_6} alt="virus"/>
-			<img className="virus_2" src={image_7} alt="virus2"/>
-			<img className="virus_3" src={image_8} alt="virus3"/>
-			<img className="virus_4" src={image_9} alt="virus4"/>
+			<img className="sod_1" src={image_1} alt="sperm" />
+			<img className="sod_2" src={image_2} alt="sperm__blurred" />
+			<img className="sod_3" src={image_3} alt="spot__blurred" />
+			<img className="sod_4" src={image_4} alt="spot__blurred2" />
+			<img className="sod_5" src={image_5} alt="stick" />
+			<img className="virus_1" src={image_6} alt="virus" />
+			<img className="virus_2" src={image_7} alt="virus2" />
+			<img className="virus_3" src={image_8} alt="virus3" />
+			<img className="virus_4" src={image_9} alt="virus4" />
 		</>
 	)
 }

@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { FirstScreen } from '../FirstScreen/FirstScreen'
 import { SecondScreen } from '../SecondScreen/SecondScreen'
+import { ThirdScreen } from '../ThirdScreen/ThirdScreen'
 
 import logo from '../../img/screen_1/main_logo.png'
 import footerLogo from '../../img/screen_1/footer_logo.png'
@@ -93,6 +94,7 @@ export const Container = () => {
 			>
 				<FirstScreen moveRight={rightMove} />
 				<SecondScreen show={showAnimation} />
+				<ThirdScreen />
 			</div>
 			<div className="footer-logo">
 				<img src={footerLogo} alt="footer-logo" />

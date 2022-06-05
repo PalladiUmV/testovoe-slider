@@ -2,6 +2,7 @@ import React from 'react'
 import { SecondScreenAnimation } from './SecondScreenAnimation'
 import './secondScreen.scss'
 
+
 export const SecondScreen = ({ show }) => {
 	return (
 		<div className="slider__item secondScreen">

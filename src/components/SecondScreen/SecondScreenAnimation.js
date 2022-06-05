@@ -6,6 +6,7 @@ import sperm_4 from '../../img/screen_2/sperm_4.png'
 import sperm_5 from '../../img/screen_2/sperm_5.png'
 import './secondScreenAnimation.scss'
 
+
 export const SecondScreenAnimation = ({ show }) => {
 	return (
 		<>

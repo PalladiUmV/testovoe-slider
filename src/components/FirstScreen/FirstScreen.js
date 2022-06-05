@@ -3,7 +3,6 @@ import { FirstScreenAnimation } from './FirstScreenAnimation'
 import btn from '../../img/screen_1/btn.png'
 import './firstScreen.scss'
 
-
 export const FirstScreen = ({ moveRight }) => {
 	return (
 		<div className="slider__item firstScreen">
